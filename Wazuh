@@ -1,3 +1,4 @@
 Primero se tiene que descargar el programa wazuh con los siguientes pasos
 
 1. descargar el programa por el navegador, despues intalarlo atravez de la terminal usando el comando
+apt install
