@@ -22,7 +22,6 @@ Linux Agent
 Windows Server 2022 Agent
 Sysmon (Windows telemetry)
 Wazuh Dashboard
-📂 Architecture Diagram: ┌─────────────────────────────────────────────────────────────┐ │ WAZUH MANAGER / SIEM SERVER │ │ (Ubuntu / Debian OS) │ │ ┌───────────────────────────────────────────────────────┐ │ │ │ LOG ANALYSIS • FIM • VULNERABILITY DETECTION │ │ │ │ ALERTS & VISUAL DASHBOARDS │ │ │ └───────────────────────────────────────────────────────┘ │ └──────────────────────────────┬──────────────────────────────┘ ▲ │ ┌─────────────────────────┴─────────────────────────┐ │ │ ┌─────────┴──────────┐ ┌─────────────────┴────────────────┐ │ LINUX ENDPOINT │ │ WINDOWS SERVER 2022 │ │ ┌────────────────┐ │ │ ┌────────────────────────────┐ │ │ │ Wazuh Agent │ │ │ │ Wazuh Agent │ │ │ └────────┬───────┘ │ │ └──────────────┬─────────────┘ │ └──────────│─────────┘ │ ▲ │ │ │ │ │ │ │ ┌──────────────┴─────────────┐ │ Logs & FIM Events │ │ SYSMON │ │ │ └────────────────────────────┘ │ └──────────────────────────────────┘ Detailed Telemetry
 
 🗓️ Week 1 – SOC Foundation Setup
 ✅ Tasks Completed
